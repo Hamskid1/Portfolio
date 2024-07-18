@@ -1,24 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
 import heroImg from "./img/heroImg.png";
-import carbnb from "./img/carbnb.png";
+import carbnb from "./img/Frame 61.png";
 import abtImg from "./img/abtImg.png";
 
 const Home = () => {
-  // const email = "fadunmiyemarvellous@gmail.com ";
-  // const subject = "";
-  // const body = "Body text here.";
-
-  // const handleClick = () => {
-  //   window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-  // };
+  
   return (
     <div>
       <section className="herosection">
         <div className="heroTxt">
           <h1>
-            Abdulhameed is a{" "}
-            <span style={{ color: "var(--primary)" }}>Ui/Ux</span> and{" "}
+            Lateef Abdulhameed is a{" "}
+            <span style={{ color: "var(--primary)" }}>web designer</span> and{" "}
             <span style={{ color: "var(--primary)" }}>front-end developer</span>
           </h1>
           <p>
@@ -182,8 +176,8 @@ const Home = () => {
               <p>Jquery</p>
             </div>
             <div className="p_des">
-              <h2>Carbnb</h2>
-              <p>A carbnb redesign</p>
+              <h2>Portfolio</h2>
+              <p>You’re using it rn</p>
               <div>
                 <button>Live &#60;~&#62;</button>
                 <button>Github &#62;=</button>
@@ -200,8 +194,8 @@ const Home = () => {
               <p>Javascript</p>
             </div>
             <div className="p_des">
-              <h2>Carbnb</h2>
-              <p>A carbnb redesign</p>
+              <h2>Portfolio</h2>
+              <p>You’re using it rn</p>
               <div>
                 <button>Live &#60;~&#62;</button>
                 <button>Github &#62;=</button>
@@ -218,8 +212,8 @@ const Home = () => {
               <p>Javascript</p>
             </div>
             <div className="p_des">
-              <h2>Carbnb</h2>
-              <p>A carbnb redesign</p>
+              <h2>Portfolio</h2>
+              <p>You’re using it rn</p>
               <div>
                 <button>Live &#60;~&#62;</button>
                 <button>Github &#62;=</button>
