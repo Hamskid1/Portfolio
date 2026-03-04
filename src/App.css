@@ -3,10 +3,9 @@
 :root {
     --fontFamily : "Fira Code", monospace;
     --primary: #C778DD;
-    --white: #FFFFFF;
+    --white: #000000;
     --gray: #ABB2BF;
-    --black: #ABB2BF;
-    --bck:#282C33;
+    --black: black;
 }
 
 * , body {
@@ -17,7 +16,7 @@
 
 body {
     background-color: #282C33;
-    background-color: #282C33;
+    background-color: whitesmoke;
     font-family: var(--fontFamily);
 }
 
@@ -52,7 +51,7 @@ span {
 }
 
 .logo p {
-    color: #FFFFFF;
+    color: black;
 }
 
 .navlinks {
@@ -189,11 +188,11 @@ button:hover {
 }
 
 .quote p {
-    color: #ABB2BF;
+    color: #000000;
 }
 
 .quoteQ p {
-    color: #ABB2BF;
+    color: #000000;
 }
 
 .qq .quoteQ {
@@ -241,7 +240,7 @@ button:hover {
 }
 
 .projects .heading h1 {
-    color: #FFFFFF;
+    color: black;
     font-size: 25px;
     font-weight: 600;
 }
@@ -547,7 +546,7 @@ button:hover {
 }
 
 .contact-div h3 {
-    color: #FFFFFF;
+    color: black;
     font-size: 16px;
     font-weight: 500;
 }
@@ -593,13 +592,13 @@ footer .f_1 {
 
 .f_1 div,p {
     margin-right: 10px;
-    color: #ABB2BF;
+    color: black;
 }
 
 .f_2 {
     width: fit-content;
     height: fit-content;
-    color: #FFFFFF;
+    color: black;
 }
 
 .f_2 h3 {
@@ -633,7 +632,7 @@ footer .f_1 {
     left: 0;
     width: 100vw;
     height: 100%;
-    background-color: var(--bck);
+    background-color: whitesmoke;
     transform: translateX(-100%);
     transition: transform 0.3s ease;
     z-index: 888;
