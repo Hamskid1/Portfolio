@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './components/Home';
 import Project from './components/Project';
+import Skills from './components/Contact';
 import About from './components/About';
 import { motion } from 'framer-motion';
 import { Slant as Hamburger } from 'hamburger-react';
@@ -51,6 +52,7 @@ function App() {
         <Route path='/' element={<Home />} /> 
         <Route path='/Projects' element={<Project />} />
         <Route path='/About' element={<About />} />
+        <Route path='/contact' element={<Skills/>}/>
       </Routes>
     </Router>
   );

@@ -543,14 +543,14 @@ const Home = () => {
             &nbsp;
             <p>Abdulhameed</p>
           </div>
-          <p className="gm">hameedlateef343@gmail.com</p>
+          <p className="gm">Hameedlateef343@gmail.com</p>
           <p>Front-end developer and Ui/Ux</p>
         </div>
 
         <div className="f_2">
           <h3>Media</h3>
           <div>
-            <a href="https://github.com/fadayo2">
+            <a href="">
               <svg
                 width="21"
                 height="20"
@@ -596,7 +596,7 @@ const Home = () => {
         </div>
       </footer>
 
-      <div className="copy">© Copyright 2024. Made by Abdulhameed</div>
+      <div className="copy">© Copyright 2024. Made by Hamskid</div>
     </div>
   );
 };

@@ -89,7 +89,7 @@ const About = () => {
         </footer>
 
         <div className='copy'>
-          © Copyright 2024. Made by Marvellous
+          © Copyright 2024. Made by Hamskid
         </div>
     </div>
   )
